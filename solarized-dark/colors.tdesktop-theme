@@ -1,24 +1,24 @@
 windowBg: #002b36; // white: fallback for background
-windowFg: #fdfdf6e3; // black: fallback for text
+windowFg: #93a1a1; // black: fallback for text
 windowBgOver: #073642; // light gray: fallback for background with mouse over
 windowBgRipple: #657b83; // darker gray: fallback for ripple effect
-windowFgOver: #93a1a1; // black: fallback for text with mouse over
-windowSubTextFg: #839496; // gray: fallback for additional text
+windowFgOver: #eee8d5; // black: fallback for text with mouse over
+windowSubTextFg: #657b83; // gray: fallback for additional text
 windowSubTextFgOver: #93a1a1; // darker gray: fallback for additional text with mouse over
 windowBoldFg: #93a1a1; // dark gray: fallback for bold text
-windowBoldFgOver: #839496; // dark gray: fallback for bold text with mouse over
+windowBoldFgOver: #93a1a1; // dark gray: fallback for bold text with mouse over
 windowBgActive: #073642; // bright blue: fallback for blue filled active areas
 windowFgActive: #93a1a1; // white: fallback for text on active areas
 windowActiveTextFg: #839496; // online blue: fallback for active text like online status
-windowShadowFg: #002b36; // black: fallback for shadow
+windowShadowFg: #000000; // black: fallback for shadow
 windowShadowFgFallback: #eee8d5; // gray: fallback for shadow without opacity
 shadowFg: #002b3616; // most shadows (including opacity)
 slideFadeOutBg: #002b36b4; // slide animation (chat to profile) fade out filling
 slideFadeOutShadowFg: #002b36; // slide animation (chat to profile) fade out right section shadow
 imageBg: #002b36; // image background fallback (when photo size is less than minimum allowed)
 imageBgTransparent: #fdf6e3; // image background when displaying an image with opacity where no opacity is needed
-activeButtonBg: #002b36; // default active button background
-activeButtonBgOver: #586e75; // default active button background with mouse over
+activeButtonBg: #586e7554; // default active button background
+activeButtonBgOver: #586e7560; // default active button background with mouse over
 activeButtonBgRipple: #93a1a1; // default active button ripple effect
 activeButtonFg: windowFgActive; // default active button text
 activeButtonFgOver: #eee8d5; // default active button text with mouse over
@@ -26,8 +26,8 @@ activeButtonSecondaryFg: #cceeff; // default active button additional text (sele
 activeButtonSecondaryFgOver: activeButtonSecondaryFg; // default active button additional text with mouse over
 activeLineFg: #379cde; // default active line (like code input field bottom border when you log in and field is focused)
 activeLineFgError: #e48383; // default active line for error state (like code input field bottom border when you log in and you've entered incorrect code)
-lightButtonBg: windowBg; // default light button background (like buttons in boxes)
-lightButtonBgOver: #586e75; // default light button background with mouse over
+lightButtonBg: #586e7526; // default light button background (like buttons in boxes)
+lightButtonBgOver: #586e7560; // default light button background with mouse over
 lightButtonBgRipple: #c9e4f6; // default light button ripple effect
 lightButtonFg: #93a1a1; // default light button text
 lightButtonFgOver: #fdf6e3; // default light button text with mouse over
@@ -58,7 +58,7 @@ radialBg: #00000056; // default radial loader background (like in Media Viewer w
 placeholderFg: windowSubTextFg; // default input field placeholder when field is not focused (like in phone input field when you log in)
 placeholderFgActive: #aaaaaa; // default input field placeholder when field is focused
 inputBorderFg: #e0e0e0; // default input field bottom border (like in code input field when you log in and field is not focused)
-filterInputBorderFg: #eee8d5; // default rounded input field border (like in chats list search field when field is focused)
+filterInputBorderFg: #93a1a1; // default rounded input field border (like in chats list search field when field is focused)
 filterInputInactiveBg: windowBgOver; // default rounded input field background (like in chats list search field when field is inactive)
 checkboxFg: #b3b3b3; // default unchecked checkbox rounded rectangle (and also emoji category icons)
 sliderBgInactive: #e1eaef; // default slider not active bar (like in Settings when you choose interface scale or custom notifications count)
@@ -131,7 +131,7 @@ dialogsNameFg: #839496; // chat list name text
 dialogsChatIconFg: #eee8d5; // chat list group or channel icon
 dialogsDateFg: #93a1a1; // chat list date text
 dialogsTextFg: windowSubTextFg; // chat list message text
-dialogsTextFgService: #586e75; // chat list group sender name text (or media message type text)
+dialogsTextFgService: #2aa198; // chat list group sender name text (or media message type text)
 dialogsDraftFg: #dd4b39; // chat list draft label
 dialogsVerifiedIconBg: #073642; // chat list verified icon background
 dialogsVerifiedIconFg: windowFgActive; // chat list verified icon check
@@ -184,7 +184,7 @@ historyTextInFg: #93a1a1; // inbox message text
 historyTextInFgSelected: historyTextInFg; // inbox message selected text or text in a selected message
 historyTextOutFg: #839496; // outbox message text
 historyTextOutFgSelected: historyTextOutFg; // outbox message selected text or text in a selected message
-historyLinkInFg: #2f92d3; // inbox message link
+historyLinkInFg: #268bd2; // inbox message link
 historyLinkInFgSelected: historyLinkInFg; // inbox message link in a selected text or message
 historyLinkOutFg: windowActiveTextFg; // outbox message link
 historyLinkOutFgSelected: #93a1a1; // outbox message link in a selected text or message
@@ -250,8 +250,8 @@ msgInDateFg: #a0acb6; // inbox message time text
 msgInDateFgSelected: #6a9cc5; // inbox selected message time text
 msgOutDateFg: #2aa198; // outbox message time text
 msgOutDateFgSelected: #50a79c; // outbox selected message time text
-msgServiceFg: #93a1a1; // service message text (like date dividers or service message about the group title being changed)
-msgServiceBg: #002b369a; // service message background (like in a service message about group title being changed) (adjusted)
+msgServiceFg: #002b36; // service message text (like date dividers or service message about the group title being changed)
+msgServiceBg: #fdf6e4ab; // service message background (like in a service message about group title being changed) (adjusted)
 msgServiceBgSelected: #96b38ba2; // service message selected text background (like in a service message about group title being changed) (adjusted)
 msgInReplyBarColor: activeLineFg; // inbox message reply outline
 msgInReplyBarSelColor: activeLineFg; // inbox selected message reply outline
@@ -327,8 +327,8 @@ toastBg: #002b36b5; // toast notification background (like when you click on you
 toastFg: windowFgActive; // toast notification text (like when you click on your t.me link when editing your username)
 reportSpamBg: emojiPanHeaderBg; // report spam panel background (like a non contact user writes your for the first time)
 reportSpamFg: windowFg; // report spam panel text (when you send a report from that panel)
-historyToDownBg: windowBg; // arrow button background (to scroll to the end of the viewed chat)
-historyToDownBgOver: windowBgOver; // arrow button background with mouse over
+historyToDownBg: #073642; // arrow button background (to scroll to the end of the viewed chat)
+historyToDownBgOver: #002b36; // arrow button background with mouse over
 historyToDownBgRipple: windowBgRipple; // arrow button ripple effect
 historyToDownFg: #93a1a1; // arrow button icon
 historyToDownFgOver: #839496; // arrow button icon with mouse over

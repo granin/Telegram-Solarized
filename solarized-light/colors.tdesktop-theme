@@ -131,7 +131,7 @@ dialogsNameFg: #586e75; // chat list name text
 dialogsChatIconFg: dialogsNameFg; // chat list group or channel icon
 dialogsDateFg: windowSubTextFg; // chat list date text
 dialogsTextFg: windowSubTextFg; // chat list message text
-dialogsTextFgService: #657b83; // chat list group sender name text (or media message type text)
+dialogsTextFgService: #2aa198; // chat list group sender name text (or media message type text)
 dialogsDraftFg: #dd4b39; // chat list draft label
 dialogsVerifiedIconBg: windowBgActive; // chat list verified icon background
 dialogsVerifiedIconFg: windowFgActive; // chat list verified icon check
@@ -140,7 +140,7 @@ dialogsSentIconFg: #5dc452; // chat list sent message tick / double tick icon
 dialogsUnreadBg: windowBgActive; // chat list unread badge background for not muted chat
 dialogsUnreadBgMuted: #bbbbbb; // chat list unread badge background for muted chat
 dialogsUnreadFg: windowFgActive; // chat list unread badge text
-dialogsBgOver: windowBgOver; // chat list background with mouse over
+dialogsBgOver: #eee8d5; // chat list background with mouse over
 dialogsNameFgOver: windowBoldFgOver; // chat list name text with mouse over
 dialogsChatIconFgOver: dialogsNameFgOver; // chat list group or channel icon with mouse over
 dialogsDateFgOver: windowSubTextFgOver; // chat list date text with mouse over
@@ -168,7 +168,7 @@ dialogsSentIconFgActive: dialogsTextFgActive; // chat list sent message tick / d
 dialogsUnreadBgActive: dialogsTextFgActive; // chat list unread badge background for not muted chat for current (active) chat
 dialogsUnreadBgMutedActive: dialogsDraftFgActive; // chat list unread badge background for muted chat for current (active) chat
 dialogsUnreadFgActive: dialogsBgActive; // chat list unread badge text for current (active) chat
-dialogsForwardBg: #fdf6e4; // forwarding panel background (when forwarding messages in the smallest window size)
+dialogsForwardBg: #fdf6e3; // forwarding panel background (when forwarding messages in the smallest window size)
 dialogsForwardFg: dialogsNameFgActive; // forwarding panel text (when forwarding messages in the smallest window size)
 searchedBarBg: windowBgOver; // search results bar background (in chats list, contacts box..)
 searchedBarFg: #2aa198; // search results bar text (in chats list, contacts box..)
@@ -250,8 +250,8 @@ msgInDateFg: #a0acb6; // inbox message time text
 msgInDateFgSelected: #6a9cc5; // inbox selected message time text
 msgOutDateFg: #6cc264; // outbox message time text
 msgOutDateFgSelected: #50a79c; // outbox selected message time text
-msgServiceFg: windowFgActive; // service message text (like date dividers or service message about the group title being changed)
-msgServiceBg: #517c417f; // service message background (like in a service message about group title being changed) (adjusted)
+msgServiceFg: #fdf6e3; // service message text (like date dividers or service message about the group title being changed)
+msgServiceBg: #586e7585; // service message background (like in a service message about group title being changed) (adjusted)
 msgServiceBgSelected: #96b38ba2; // service message selected text background (like in a service message about group title being changed) (adjusted)
 msgInReplyBarColor: activeLineFg; // inbox message reply outline
 msgInReplyBarSelColor: activeLineFg; // inbox selected message reply outline
