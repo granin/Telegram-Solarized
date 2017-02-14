@@ -1,5 +1,5 @@
-# Telegram-Solarized
-Telegram Desktop Solarized custom theme
+# Telegram Desktop Solarized custom theme in light and dark modes
+
 
 [Download from Releases on Github](https://github.com/granin/Telegram-Solarized/releases)
 
