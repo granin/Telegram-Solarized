@@ -1,13 +1,3 @@
-* Telegram Solarized Dark Theme
-* 
-* by Misha Granin, Softidentity Design Studio http://t.me/softidentity softidentity@granin.net
-*
-* Background  is based on "Where Tahrs Live" image is modified and used with permission of author 
-* © Image Vlad Gerasimov 
-* Get fresh version https://github.com/granin/Telegram-Solarized 
-* Join theme updates channel http://t.me/solarized
-* Send feedback http://t.me/SolarizedBot
-
 windowBg: #002b36; // white: fallback for background
 windowFg: #fdfdf6e3; // black: fallback for text
 windowBgOver: #073642; // light gray: fallback for background with mouse over
@@ -213,28 +203,28 @@ historyUnreadBarBorder: shadowFg; // new unread messages bar shadow
 historyUnreadBarFg: #538bb4; // new unread messages bar text
 historyForwardChooseBg: #0000004c; // forwarding messages in a large window size "choose recipient" background
 historyForwardChooseFg: windowFgActive; // forwarding messages in a large window size "choose recipient" text
-historyPeer1NameFg: #c03d33; // red group member name
+historyPeer1NameFg: #dc312e; // red group member name
 historyPeer1NameFgSelected: historyPeer1NameFg; // red group member name in a selected message
 historyPeer1UserpicBg: #dc322f; // red userpic background
-historyPeer2NameFg: #4fad2d; // green group member name
+historyPeer2NameFg: #859900; // green group member name
 historyPeer2NameFgSelected: historyPeer2NameFg; // green group member name in a selected message
 historyPeer2UserpicBg: #859900; // green userpic background
-historyPeer3NameFg: #d09306; // yellow group member name
+historyPeer3NameFg: #b58900; // yellow group member name
 historyPeer3NameFgSelected: historyPeer3NameFg; // yellow group member name in a selected message
 historyPeer3UserpicBg: #b58900; // yellow userpic background
 historyPeer4NameFg: windowActiveTextFg; // blue group member name
 historyPeer4NameFgSelected: historyPeer4NameFg; // blue group member name in a selected message
 historyPeer4UserpicBg: #268bd2; // blue userpic background
-historyPeer5NameFg: #8544d6; // purple group member name
+historyPeer5NameFg: #6c71c4; // purple group member name
 historyPeer5NameFgSelected: historyPeer5NameFg; // purple group member name in a selected message
-historyPeer5UserpicBg: #6c71c4; // purple userpic background
+historyPeer5UserpicBg: #6c72c4; // purple userpic background
 historyPeer6NameFg: #cd4073; // pink group member name
-historyPeer6NameFgSelected: historyPeer6NameFg; // pink group member name in a selected message
-historyPeer6UserpicBg: #ee7aae; // pink userpic background
-historyPeer7NameFg: #2996ad; // sea group member name
+historyPeer6NameFgSelected: #d33682; // pink group member name in a selected message
+historyPeer6UserpicBg: #d33682; // pink userpic background
+historyPeer7NameFg: #2aa198; // sea group member name
 historyPeer7NameFgSelected: historyPeer7NameFg; // sea group member name in a selected message
 historyPeer7UserpicBg: #2aa198; // sea userpic background
-historyPeer8NameFg: #ce671b; // orange group member name
+historyPeer8NameFg: #cb4b16; // orange group member name
 historyPeer8NameFgSelected: historyPeer8NameFg; // orange group member name in a selected message
 historyPeer8UserpicBg: #cb4b16; // orange userpic background
 historyPeerUserpicFg: #002b36; // default userpic initials
@@ -286,22 +276,22 @@ msgFileInBgSelected: #51a3d3; // inbox selected audio file download circle backg
 msgFileOutBg: #78c67f; // outbox audio file download circle background
 msgFileOutBgOver: #6bc272; // outbox audio file download circle background with mouse over
 msgFileOutBgSelected: #5fb389; // outbox selected audio file download circle background
-msgFile1Bg: #72b1df; // blue shared links / files without image square thumbnail
-msgFile1BgDark: #5c9ece; // blue shared files without image download circle background
+msgFile1Bg: #268bd2; // blue shared links / files without image square thumbnail
+msgFile1BgDark: #268bd2; // blue shared files without image download circle background
 msgFile1BgOver: #5294c4; // blue shared files without image download circle background with mouse over
 msgFile1BgSelected: #5099d0; // blue shared files without image download circle background if file is selected
-msgFile2Bg: #2aa198; // green shared links / shared files without image square thumbnail
-msgFile2BgDark: #4da859; // green shared files without image download circle background
-msgFile2BgOver: #44a050; // green shared files without image download circle background with mouse over
-msgFile2BgSelected: #46a07e; // green shared files without image download circle background if file is selected
-msgFile3Bg: #e47272; // red shared links / shared files without image square thumbnail
-msgFile3BgDark: #cd5b5e; // red shared files without image download circle background
-msgFile3BgOver: #c35154; // red shared files without image download circle background with mouse over
-msgFile3BgSelected: #9f6a82; // red shared files without image download circle background if file is selected
-msgFile4Bg: #efc274; // yellow shared links / shared files without image square thumbnail
-msgFile4BgDark: #e6a561; // yellow shared files without image download circle background
-msgFile4BgOver: #dc9c5a; // yellow shared files without image download circle background with mouse over
-msgFile4BgSelected: #b19d84; // yellow shared files without image download circle background if file is selected
+msgFile2Bg: #859900; // green shared links / shared files without image square thumbnail
+msgFile2BgDark: #859900; // green shared files without image download circle background
+msgFile2BgOver: #96a143; // green shared files without image download circle background with mouse over
+msgFile2BgSelected: #97a146; // green shared files without image download circle background if file is selected
+msgFile3Bg: #dc322f; // red shared links / shared files without image square thumbnail
+msgFile3BgDark: #dc312e; // red shared files without image download circle background
+msgFile3BgOver: #c25351; // red shared files without image download circle background with mouse over
+msgFile3BgSelected: #9e6b6a; // red shared files without image download circle background if file is selected
+msgFile4Bg: #b58900; // yellow shared links / shared files without image square thumbnail
+msgFile4BgDark: #b58900; // yellow shared files without image download circle background
+msgFile4BgOver: #dbbb5a; // yellow shared files without image download circle background with mouse over
+msgFile4BgSelected: #b0a584; // yellow shared files without image download circle background if file is selected
 historyFileInIconFg: msgInBg; // inbox file without thumbnail (like audio file) download arrow icon
 historyFileInIconFgSelected: msgInBgSelected; // inbox selected file without thumbnail (like audio file) download arrow icon
 historyFileInRadialFg: historyFileInIconFg; // inbox file without thumbnail (like audio file) radial download animation line
@@ -382,10 +372,10 @@ mediaPlayerDisabledFg: #9dd1ef; // audio file player loading progress (when you'
 mediaviewFileBg: windowBg; // file rectangle background (when you view a png file in Media Viewer and go to a previous, not loaded yet, file)
 mediaviewFileNameFg: windowFg; // file name in file rectangle
 mediaviewFileSizeFg: #839496; // file size text in file rectangle
-mediaviewFileRedCornerFg: #d55959; // red file thumbnail placeholder corner in file rectangle (for a file without thumbnail, like .pdf)
-mediaviewFileYellowCornerFg: #e8a659; // yellow file thumbnail placeholder corner in file rectangle (for a file without thumbnail, like .zip)
-mediaviewFileGreenCornerFg: #49a957; // green file thumbnail placeholder corner in file rectangle (for a file without thumbnail, like .exe)
-mediaviewFileBlueCornerFg: #599dcf; // blue file thumbnail placeholder corner in file rectangle (for a file without thumbnail, like .dmg)
+mediaviewFileRedCornerFg: #dc312e; // red file thumbnail placeholder corner in file rectangle (for a file without thumbnail, like .pdf)
+mediaviewFileYellowCornerFg: #b58900; // yellow file thumbnail placeholder corner in file rectangle (for a file without thumbnail, like .zip)
+mediaviewFileGreenCornerFg: #859900; // green file thumbnail placeholder corner in file rectangle (for a file without thumbnail, like .exe)
+mediaviewFileBlueCornerFg: #268bd2; // blue file thumbnail placeholder corner in file rectangle (for a file without thumbnail, like .dmg)
 mediaviewFileExtFg: activeButtonFg; // file extension text in file thumbnail placeholder in file rectangle
 mediaviewMenuBg: #002b36; // context menu in Media Viewer background
 mediaviewMenuBgOver: #073642; // context menu item background with mouse over
