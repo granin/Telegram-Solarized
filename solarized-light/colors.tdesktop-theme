@@ -160,7 +160,7 @@ dialogsChatIconFgActive: dialogsNameFgActive; // chat list group or channel icon
 dialogsDateFgActive: windowFgActive; // chat list date text for current (active) chat
 dialogsTextFgActive: windowFgActive; // chat list message text for current (active) chat
 dialogsTextFgServiceActive: dialogsTextFgActive; // chat list group sender name text for current (active) chat
-dialogsDraftFgActive: #c6e1f7; // chat list draft label for current (active) chat
+dialogsDraftFgActive: #586e75; // chat list draft label for current (active) chat
 dialogsVerifiedIconBgActive: dialogsTextFgActive; // chat list verified icon background for current (active) chat
 dialogsVerifiedIconFgActive: #3793d0; // chat list verified icon check for current (active) chat
 dialogsSendingIconFgActive: #ffffff99; // chat list sending message icon (clock) for current (active) chat
