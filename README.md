@@ -11,7 +11,6 @@ Get more backgrounds & patterns matching Solarized http://t.me/SolarizedBackgrou
 Send feedback http://t.me/SolarizedBot
 More info
 
-More info 
-by Misha Granin, Softidentity Design Studio http://t.me/softidentity softidentity@granin.net
+More info at http://t.me/softidentity
 
 Background  is based on "Where Tahrs Live" image is modified and used with permission of author. Original images from [VladStudio](http://www.vladstudio.com) © Image Vlad Gerasimov 
